@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+section.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+#resposta {
+    width: 50%;
+    height: 400px;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 10px 3px rgb(94, 94, 94);
+}
+
+#resposta p {
+    font-size: 18px;
+    padding-left: 10px;
+    color: #ccc;
+}
